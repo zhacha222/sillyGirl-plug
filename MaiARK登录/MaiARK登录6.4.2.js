@@ -1,9 +1,12 @@
 // [rule: 登录 ] 
-//[priority:924703993]
-// [disable: false] 是否禁用
+// [priority:924703993]
+// [disable: true] 是否禁用
 //作者QQ1483081359 
+//傻妞和MaiARK都要对接青龙
+//傻妞可以对接多个青龙
+//MaiARK只需要对接 傻妞聚合的那个青龙就行了 
 
-    var addr = "http://XXX.XXX.XX.XXX:8082"
+    var addr = "http://xxx.xxx.xx.xxx:8082"
     //这修改成自己MaiARK的ip地址和端口
     //最后面不要带“/” ，不然会出错！
     //只要修改这一处，其他不要改！！！
@@ -33,8 +36,6 @@ function main() {
         sendText("无法获取验证码，请更换账号，或通过其他方式登录。");
         return;
     }
-
-
     if (result.code == 0) {
         sendText("获取验证码成功！")
     
@@ -66,28 +67,17 @@ function LoginJD(result) {
         return;
     }
 
-    if (result.ck != undefined) {
-        
+    if (result.ck != undefined) {       
     var rule = /[^;]+;pt_pin=(.*);$/
     var ck = result.ck
     var pin = rule.exec(ck)
     var resuilt = pin[1]
-    bucketSet('pinQQ', resuilt, qq)
-    
+    bucketSet('pinQQ', resuilt, qq)   
     sendText("上车成功。")
-    notifyMasters(`${GetUsername()} ，添加成功。`)   
-        
-
+    notifyMasters(`${GetUsername()} ，添加成功。`)           
     }else {
-        sendText(result.msg);
+        sendText(result.msg + "，请重新登录！");
         return;
     }
 }
-
-
 main()
-
-
-
-
-
