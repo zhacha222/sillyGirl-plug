@@ -3,7 +3,7 @@
 // [disable: false] 是否禁用
 //作者QQ1483081359 
 
-    var addr = "http://150.158.88.142:8082"
+    var addr = "http://XXX.XXX.XX.XXX:8082"
     //这修改成自己MaiARK的ip地址和端口
     //最后面不要带“/” ，不然会出错！
     //只要修改这一处，其他不要改！！！
