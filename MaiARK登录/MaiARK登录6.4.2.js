@@ -1,8 +1,7 @@
 // [rule: 登录 ] 
 // [priority:924703993]
 // [disable: true] 是否禁用
-//作者QQ1483081359 转载请保留版权  
-//github仓库：https://github.com/zhacha222/sillyGirljs/blob/main/MaiARK%E7%99%BB%E5%BD%95/MaiARK%E7%99%BB%E5%BD%956.4.2.js
+//作者QQ1483081359 转载请保留版权  github仓库：zhacha222/sillyGirljs
 //傻妞和MaiARK都要对接青龙
 //傻妞可以对接多个青龙，但是要设置一个聚合容器
 //MaiARK只需要对接 傻妞聚合的那个青龙就行了 
