@@ -23,11 +23,11 @@
     var num = input(15000);
 
 function main() {
-    
+     
 	if(!num || num == "q" || num == "Q"){
 		sendText("已退出")
 		return;
-		
+		 
 	}else{
         sendText("正在获取登录验证码,请耐心等待...");
         
@@ -96,7 +96,7 @@ function LoginJD(result) {
     notifyMasters(`${GetUsername()} ，添加成功。`)   
     return;
      }
-     if (s.GetImType() == "wx" ) {
+     if (s.GetImType() == "wxmp" ) {
     bucketSet('pinWXMP', resuilt, qq)
     sendText("上车成功。")
     notifyMasters(`${GetUsername()} ，添加成功。`)   
@@ -118,8 +118,5 @@ function LoginJD(result) {
 
 
 main()
-
-
-
 
 
