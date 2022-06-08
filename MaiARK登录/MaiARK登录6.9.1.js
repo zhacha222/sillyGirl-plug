@@ -39,7 +39,7 @@ function main() {
 
     if (!result) {
         
-        sendText("获取验证码超时，尝试重新登录，或者检查MaiARK配置！");
+        sendText("获取验证码超时，请尝试重新登录，或者检查MaiARK配置！");
         //如果这里登录时返回这个内容，请检查自己的MaiARK是否正常
         return;
     }
