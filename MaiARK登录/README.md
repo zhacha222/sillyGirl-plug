@@ -4,6 +4,9 @@
 遇到问题可以去issues里留言，看到都会回
 
   [留言入口](https://github.com/zhacha222/sillyGirljs/issues/1)
+
+  也可以去tg频道留言
+  https://t.me/silly_MaiArk
   
 ## ▎更新日志:
 
