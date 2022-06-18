@@ -1,6 +1,6 @@
 # 傻妞对接MaiARK
 
-  ### 旧版本多少都存在点bug，推荐用最新版本6.12.1
+  ### 旧版本多少都存在点bug，推荐用最新版本6.18.1
 遇到问题可以去issues里留言，看到都会回
 
   [留言入口](https://github.com/zhacha222/sillyGirljs/issues/1)
