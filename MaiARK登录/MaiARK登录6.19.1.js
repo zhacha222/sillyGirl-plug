@@ -1,11 +1,11 @@
-// [rule: 登录 ] 
-// [rule: 登陆 ] 
+// [rule: 登录 ]    有问题tg频道留言 https://t.me/silly_MaiArk
+// [rule: 登陆 ]    作者QQ1483081359 转载请保留版权  github仓库：zhacha222/sillyGirljs
 // [priority:924703993]
 // [disable: false] 是否禁用
-// [admin: true] 是否只允许管理员使用
-//有问题tg频道留言 https://t.me/silly_MaiArk
-//作者QQ1483081359 转载请保留版权  github仓库：zhacha222/sillyGirljs
-//傻妞和MaiARK都要对接青龙    傻妞可以对接多个青龙，但是要设置一个聚合容器  MaiARK只需要对接 傻妞聚合的那个青龙就行了 
+// [admin: false] 是否只允许管理员使用
+//傻妞和MaiARK都要对接青龙    
+//傻妞可以对接多个青龙，但是要设置一个聚合容器  
+//MaiARK只需要对接 傻妞聚合的那个青龙就行了 
 //可以实现直接登录查询，不需要再复制ck发送给机器人，和对接Nolan的效果一样 
 
 //6.6更新 适配QQ，微信，TG，微信公众号 全平台登录
