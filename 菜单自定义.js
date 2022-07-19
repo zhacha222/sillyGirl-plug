@@ -1,6 +1,6 @@
 // [rule: 菜单] 
-// [admin: true] 是否只允许管理员使用
 // [rule: 菜单管理]
+// [admin: true]
 // github仓库：zhacha222/sillyGirljs
 // 有问题tg频道留言 https://t.me/silly_MaiArk
 
@@ -24,8 +24,11 @@ function choose(){ //命令筛选
      menu()   
         
     }else if (GetContent=="菜单管理"){
+        if (isAdmin) {
+        	manager()
+    	    }
+    	return;
         
-       manager() 
     }
 }
 
