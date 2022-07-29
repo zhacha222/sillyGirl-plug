@@ -29,7 +29,7 @@ function tell() {
 
 function ps() {
     sendText("请在30秒内输入密码: ")
-    password = input(30000);
+    var password = input(30000);
     sendText("密码已记录\n如需修改请联系管理员")
     bucketSet('huluxiapwd', qq, password)
     sendText("开始签到，请稍候...")
@@ -40,7 +40,8 @@ function ps() {
 
 
 function signin() {
-    
+    var phone = bucketGet('huluxiatel', qq)
+    var password = bucketGet('huluxiapwd', qq)
 	var result = request({
 			url: "https://xiaobai.klizi.cn/API/other/hlx_dl.php?key="+password+"&phone="+phone,
             "dataType": "json",
