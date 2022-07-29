@@ -43,7 +43,8 @@ function signin() {
     
 	var result = request({
 			url: "https://xiaobai.klizi.cn/API/other/hlx_dl.php?key="+password+"&phone="+phone,
-            "dataType": "json"
+            "dataType": "json",
+			"timeOut": 60000
 		})
 	if (result.status==0){
 	    sendText("用户名或密码输入错误")
